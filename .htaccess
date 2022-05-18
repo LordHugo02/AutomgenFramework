@@ -1,0 +1,25 @@
+
+
+RewriteCond %{REQUEST_URI} !index.php
+RewriteCond %{REQUEST_URI} !robots.txt
+RewriteCond %{REQUEST_URI} !/config/
+RewriteCond %{REQUEST_URI} !/controller/
+RewriteCond %{REQUEST_URI} !/css/
+RewriteCond %{REQUEST_URI} !/img/
+RewriteCond %{REQUEST_URI} !/js/
+RewriteCond %{REQUEST_URI} !/lib/
+RewriteCond %{REQUEST_URI} !/model/
+RewriteCond %{REQUEST_URI} !/view/
+RewriteCond %{REQUEST_URI} !/font/
+RewriteRule ^(.*)$ index.php?url=%{REQUEST_URI} [L,NC]
+
+AuthName "Site de dévellopement protégé"
+AuthType Basic
+AuthUserFile "./config/.htpasswd"
+Require valid-user
+
+Order Deny,Allow
+Deny from all
+Allow from 2.4.169.148 82.66.13.78
+
+Satisfy any

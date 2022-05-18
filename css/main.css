@@ -1,0 +1,76 @@
+@import "vendors/bootstrap-5.0.1/bootstrap.css";
+
+/* Définitions des fonts */
+/* Font Ubuntu */
+@font-face {
+    font-family: 'Ubuntu Bold';
+    src: url('../font/Ubuntu/Ubuntu-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu Bold Italic';
+    src: url('../font/Ubuntu/Ubuntu-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu Italic';
+    src: url('../font/Ubuntu/Ubuntu-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu Light';
+    src: url('../font/Ubuntu/Ubuntu-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu Light Italic';
+    src: url('../font/Ubuntu/Ubuntu-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu Medium';
+    src: url('../font/Ubuntu/Ubuntu-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu Medium Italic';
+    src: url('../font/Ubuntu/Ubuntu-MediumItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu Regular';
+    src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+
+/* Mise en application des fonts */
+body {
+    font-family: 'Ubuntu Regular', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu Bold', serif;
+}
+
+/* Autres propriétés CSS */
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.Site-content {
+    flex: 1;
+    padding-top: 20px;
+}
+
+h3 {
+    width: 25%;
+    text-align: justify;
+    font-size: 120%;
+}
+
+.hovered-icons:hover {
+    transition: all 0.5s ease-out;
+    color: #037F8C;
+}
