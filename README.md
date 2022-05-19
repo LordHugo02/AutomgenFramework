@@ -1,2 +1,3 @@
-# furry
-Mon site de présentation de moi en tant que furry
+# MyPhpFrameworkEmpty
+
+Mon framework PHP pour développer des applications web.
