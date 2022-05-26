@@ -3,7 +3,7 @@
     use manager\DbConnect;
 
     require './config/Config.php';
-    require './lib/Utilities.php';
+    require './libs/Utilities.php';
 
     $libs = Utilities::glob_recursive($lib_rep . '*');
     foreach ($libs as $lib) {

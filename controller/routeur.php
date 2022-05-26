@@ -53,15 +53,9 @@
      * Gestion des actions
      */
     if(isset($_url_tab[1])) {
-
         $action = $_url_tab[1];
-
     }else{
-        if ($controller == 'games') {
-            $action = 'routing';
-        } else {
-            $action='show';
-        }
+        $action='show';
     }
 
 /**
