@@ -22,7 +22,7 @@
     $font_rep = $base_rep . 'font/';
     $img_rep = $base_rep . 'img/';
     $js_rep = $base_rep . 'js/';
-    $lib_rep = $base_rep . 'lib/';
+    $lib_rep = $base_rep . 'libs/';
     $manager_rep = $base_rep . 'manager/';
     $model_rep = $base_rep . 'model/';
     $view_rep = $base_rep . 'view/';
