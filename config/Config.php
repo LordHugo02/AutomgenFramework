@@ -2,17 +2,17 @@
 
     $database = [
         'type' => 'mysql',
-        'database' => 'u443962882_furry',
-        'hostname' => 'sql142.main-hosting.eu',
-        'login' => 'u443962882_furry',
-        'password' => 'LeK[r2~>9z'
+        'database' => 'u367551953_mystipixel',
+        'hostname' => 'sql730.main-hosting.eu',
+        'login' => 'u367551953_mystipixel',
+        'password' => '@xeHh46UeWHuLxD*'
     ];
 
-    $pub_url = 'https://furry.automgen.dev/';
+    $pub_url = 'http://mystipixel.fr/';
     $mode_test = true;
 
     // Sécurité
-    $salt_crypt = 'Hd#$9T?4beGV^K2W';
+    $salt_crypt = '5xNB*?Ep?r$htqBD';
     $algo_crypt = 'sha256';
 
     // Répertoires
