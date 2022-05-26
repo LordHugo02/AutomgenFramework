@@ -5,7 +5,7 @@ RewriteCond %{REQUEST_URI} !/controller/
 RewriteCond %{REQUEST_URI} !/css/
 RewriteCond %{REQUEST_URI} !/img/
 RewriteCond %{REQUEST_URI} !/js/
-RewriteCond %{REQUEST_URI} !/lib/
+RewriteCond %{REQUEST_URI} !/libs/
 RewriteCond %{REQUEST_URI} !/model/
 RewriteCond %{REQUEST_URI} !/view/
 RewriteCond %{REQUEST_URI} !/font/
